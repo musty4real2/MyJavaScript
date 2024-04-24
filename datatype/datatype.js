@@ -53,6 +53,9 @@ Print the string on the browser console using console.log()
 Print the length of the string on the browser console using console.log()
 Change all the string characters to capital letters using toUpperCase() method
 Change all the string characters to lowercase letters using toLowerCase() method
+Cut (slice) out the first word of the string using substr() or substring() method
+Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
+
 */
 let challenge = '30 Days Of JavaScript';
 console.log(challenge);
@@ -60,13 +63,15 @@ console.log(challenge.length);
 console.log(challenge.toUpperCase());
 console.log(challenge.toLowerCase());
 console.log(challenge.substring(challenge.indexOf(" ") + 1));
+console.log(challenge.slice(0, challenge.indexOf(' ')));
+console.log(challenge.includes('Script'));
 
 
 /*
 
 
-Cut (slice) out the first word of the string using substr() or substring() method
-Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
+
+
 Check if the string contains a word Script using includes() method
 Split the string into an array using split() method
 Split the string 30 Days Of JavaScript at the space using split() method
