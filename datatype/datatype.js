@@ -37,6 +37,13 @@ collectValue=2;
 
 
 
-//
+//eg 2 
+let lightOn = true
+let lightOff = false
+
+console.log(lightOn == lightOff) // false
+
+
+
 
 
