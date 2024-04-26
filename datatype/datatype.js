@@ -124,3 +124,9 @@ let lightOnOn = true;
 let lightOffOff = false;
 
 console.log(lightOnOn == lightOffOff); // false
+
+
+let numsTest = [1, 2, 3]
+numsTest[0] = 10
+
+console.log(numsTest)  // [10, 2, 3]
