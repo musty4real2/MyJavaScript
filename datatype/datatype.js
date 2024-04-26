@@ -198,3 +198,8 @@ isRaining ? console.log('You need a rain coat.') : console.log('No need for a ra
 isRaining = false;
 
 isRaining ? console.log('You need a rain coat.') : console.log('No need for a rain coat.');
+
+
+alert('Welcome to test');
+let number = prompt('Enter number', 'number goes here');
+console.log(number);
