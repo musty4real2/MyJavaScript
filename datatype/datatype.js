@@ -130,3 +130,52 @@ let numsTest = [1, 2, 3]
 numsTest[0] = 10
 
 console.log(numsTest)  // [10, 2, 3]
+
+
+// userTest
+
+let userOne = {
+    name:'Musa',
+    role:'dev',
+    country:'Surulere'
+    }
+    
+    let userTwo = {
+    name:'Musa',
+    role:'dev',
+    country:'Surulere'
+    }
+    
+    console.log(userOne == userTwo) // false
+    console.log(userOne != userTwo) // true
+
+    console.log(userOne.role);
+    console.log(userOne.country);
+
+
+
+    function userDetails() {
+        let userOne = { //creating userOne first object
+            name: 'Musa',
+            role: 'dev',
+            country: 'Surulere'
+        };
+        
+        let userTwo = { //creating UserTwo object
+            name: 'Akanni',
+            role: 'frontend',
+            country: 'gudu'
+        };
+    
+        return { userOne, userTwo }; // Return an object containing userOne and userTwo details
+    }
+    
+    const users = userDetails(); // Call the function and store the returned object
+    
+    console.log(users.userOne); // Access userOne property of the returned object
+    console.log(users.userOne.role); //returning value of the role object field 
+    console.log(users.userTwo.name);
+    
+
+
+
