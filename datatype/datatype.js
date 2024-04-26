@@ -179,3 +179,22 @@ let userOne = {
 
 
 
+// truty 
+
+let isLightOn = true
+// let isRaining = false
+let isHungry = false
+let isMarried = true
+let truValue = 4 > 3    // true
+let falseValue = 4 < 3  // false
+let isAlive=0;
+
+
+
+// example
+
+let isRaining = true;
+isRaining ? console.log('You need a rain coat.') : console.log('No need for a rain coat.');
+isRaining = false;
+
+isRaining ? console.log('You need a rain coat.') : console.log('No need for a rain coat.');
