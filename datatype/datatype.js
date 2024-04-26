@@ -107,3 +107,20 @@ let partTwo = 'JavaScript';
 console.log(partOne+' '+partTwo);
 console.log(challenge.repeat(2));
 
+
+
+// testing 
+let numOne = 3
+let numTwo = 3
+
+console.log(numOne == numTwo)      // true
+
+let js = 'JavaScript'
+let py = 'Python'
+
+console.log(js == py);            //false 
+
+let lightOnOn = true;
+let lightOffOff = false;
+
+console.log(lightOnOn == lightOffOff); // false
