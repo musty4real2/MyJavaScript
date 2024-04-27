@@ -203,3 +203,13 @@ isRaining ? console.log('You need a rain coat.') : console.log('No need for a ra
 alert('Welcome to test');
 let number = prompt('Enter number', 'number goes here');
 console.log(number);
+
+
+
+// conditional statement 
+
+
+let num = 11
+if (num > 11) {
+    console.log(`${num} phone number must not be more than eleven`);
+}
