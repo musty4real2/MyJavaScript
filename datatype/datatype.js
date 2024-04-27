@@ -200,9 +200,10 @@ isRaining = false;
 isRaining ? console.log('You need a rain coat.') : console.log('No need for a rain coat.');
 
 
-alert('Welcome to test');
-let number = prompt('Enter number', 'number goes here');
-console.log(number);
+// alert('Welcome to test');
+
+// let number = prompt('Enter number', 'number goes here');
+// console.log(number);
 
 
 
@@ -212,4 +213,30 @@ console.log(number);
 let num = 11
 if (num > 11) {
     console.log(`${num} phone number must not be more than eleven`);
+}
+
+let isRainingToday = true
+if (isRainingToday) {
+    console.log('Remember to take your rain coat.');
+}else{
+    console.log('The weather might just be friendly enough to wear something light');
+}
+
+
+
+//trying out numeric conditions 
+
+let numBer = 3
+if (numBer > 0) {
+    console.log(`${num} is a positive number`)
+} else {
+    console.log(`${num} is a negative number`)
+}
+//  3 is a positive number
+
+numBer = -3
+if (numBer > 0) {
+    console.log(`${numBer} is a positive number`)
+} else {
+    console.log(`${numBer} is a negative number`)
 }
