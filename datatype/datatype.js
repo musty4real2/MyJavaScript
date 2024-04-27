@@ -240,3 +240,55 @@ if (numBer > 0) {
 } else {
     console.log(`${numBer} is a negative number`)
 }
+
+
+//if else if else end
+
+let a = 0
+if (a > 0) {
+    console.log(`${a} is a positive number`)
+} else if (a < 0) {
+    console.log(`${a} is a negative number`)
+} else if (a == 0) {
+    console.log(`${a} is zero`)
+} else {
+    console.log(`${a} is not a number`)
+}
+
+
+let startUp = "WordXcode";
+let checker =typeof('string');
+
+if(checker =='string'){
+    // console.log("is a string that was found");
+    if(startUp.length>=5){
+        console.log('the string length is greater than 5');
+    }else if(startUp.length<=5){
+        console.log("the string length is below 5");
+    }else{
+        console.log("no conditional criteria was met");
+    }
+
+}else{
+    console.log("Do another operation");
+}
+
+
+
+//switch practice 
+
+
+let weather = "sunny";
+switch (weather) {
+    case "rainy":
+        console.log("You need a rain coat.");
+        break;
+    case "cloudy":
+        console.log("It might be cold, you need a jacket.");
+        break;
+    case "sunny":
+        console.log("Go out freely.");
+        break;
+    default:
+        console.log(" No need for rain coat.");
+}
